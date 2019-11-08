@@ -926,7 +926,7 @@ toHaveValue(value: string | string[] | number)
 ```
 
 This allows you to check whether the given form element has the specified value.
-It accepts `<input>`, `<select>` and `<textarea>` elements with the exception of
+It accepts `<input>`, `<select>` and `<textarea>` elements with the exception
 of `<input type="checkbox">` and `<input type="radio">`, which can be
 meaningfully matched only using [`toBeChecked`](#tobechecked) or
 [`toHaveFormValues`](#tohaveformvalues).
